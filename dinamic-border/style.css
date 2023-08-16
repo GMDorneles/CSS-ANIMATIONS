@@ -1,0 +1,30 @@
+nav{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Segoe UI",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 0px 50px 10px 0;
+    font-size: 25pt;
+    position: relative;
+}
+/* width em  o para quando acontecer o hover ele aumentar até 100% */
+/* transition para que aumente devagar causando o efeito de crescimento */
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition:0.5s ease-in-out ;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
