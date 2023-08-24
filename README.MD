@@ -13,5 +13,11 @@ Propriedades de animação: várias propriedades de animação CSS são discutid
 ## Animation Shorthand: 
 Ele apresenta a propriedade abreviada de animação, que permite definir várias propriedades relacionadas à animação em uma única linha de código.
 
+## Links úteis
+
+- Animações interessantes: https://www.youtube.com/watch?v=eTELLTacg-8
+- Gerar números para cube-bezier: https://easings.net/  https://cubic-bezier.com/#.08,.92,.63,.13
+- Animações pré-definidas: https://animista.net/play/basic/flip-scale-2
+
 
 
